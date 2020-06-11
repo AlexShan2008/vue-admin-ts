@@ -1,0 +1,40 @@
+.user {
+  color: #333;
+
+  &-avatar-dropdown {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+
+    .user {
+      display: flex;
+      align-items: center;
+
+      .user-img {
+        width: 16px;
+        margin-right: 5px;
+      }
+
+      .username-container {
+        padding: 0 5px;
+        transition: all 0.3s;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+
+        &:hover {
+          display: inline-block;
+          height: 30px;
+          line-height: 30px;
+          background: #ccc;
+          transition: all 0.3s;
+          border-radius: 5px;
+        }
+      }
+    }
+
+    .ivu-badge-dot {
+      top: 16px;
+    }
+  }
+}

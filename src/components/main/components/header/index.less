@@ -1,0 +1,106 @@
+@white: #fff;
+@active: #3989FA;
+
+.header {
+  background-color: @white;
+  display: flex;
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  box-shadow: 0px 8px 16px rgba(216, 221, 237, 1);
+}
+
+.logo {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 54px;
+  margin-left: 20px;
+
+  .logo-view {
+    height: 29px;
+    width: 160px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../../../../assets/images/logo-new.png') center center/cover no-repeat;
+    background-size: 100%;
+  }
+
+  .logo-collapse {
+    width: 52px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../../../../assets/images/meno-logo-collapse.png') center center/cover no-repeat;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+
+  .nav-item {
+    cursor: pointer;
+    padding: 12px 10px;
+    margin: 0 30px;
+
+    &.active {
+      font-weight: bold;
+      border-bottom: 2px solid @active;
+      color: @active;
+    }
+
+    color: #333333;
+    font-size: 14px;
+
+  }
+}
+
+.message {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .message-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 24px;
+    cursor: pointer;
+
+    &:hover {
+      background: #ccc;
+      transition: all 0.3s;
+      border-radius: 100%;
+    }
+  }
+
+  .red-dot {
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transform-origin: 0 center;
+    transform-origin: 0 center;
+    top: 19px;
+    right: 27px;
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    background: #ed4014;
+    z-index: 10;
+    box-shadow: 0 0 0 1px #fff;
+  }
+}
+
+.user {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  color: #fff;
+}

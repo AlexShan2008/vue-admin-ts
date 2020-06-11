@@ -1,0 +1,29 @@
+.menu-container {
+  padding-top: 40px;
+
+  .menu {
+    list-style: none;
+    font-size: 14px;
+    color: #7A8297;
+  }
+
+  .tab {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-left: 3px solid transparent;
+    cursor: pointer;
+    padding-left: 15px;
+
+    &.active {
+      color: #2D8CF0;
+      border-left: 3px solid rgba(57, 137, 250, 1);
+      background: rgba(240, 246, 255, 1);
+    }
+
+    &:hover {
+      background: rgba(240, 246, 255, 1);
+      color: #2D8CF0;
+    }
+  }
+}
