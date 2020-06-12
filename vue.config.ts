@@ -29,7 +29,6 @@ module.exports = {
       errors: true
     },
     before: require('./mock/mock-server.ts')
-    // proxy: 'http://xxxx.com'
   },
   configureWebpack: {
     name: pageTitle,
