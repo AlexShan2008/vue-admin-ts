@@ -1,4 +1,7 @@
-# A Zero Config SaaS Admin Web Which Use Vue.js and TypeScript
+
+# Vue Admin TypeScript &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AlexShan2008/vue-admin-ts/LICENSE) ![CircleCI Status](https://github.com/AlexShan2008/vue-admin-ts/workflows/CI/badge.svg)
+
+## A Zero Config SaaS Admin Web Which Use Vue.js and TypeScript
 
 ## Project setup
 ```
